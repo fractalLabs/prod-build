@@ -1,10 +1,13 @@
 # prod-build
 
-FIXME: write description
+Clojure builds for production, without comments, docstrings, newlines, etc. [Proof of Concept]
 
 ## Usage
 
-FIXME: write
+(use 'prod-build.core)
+
+(-main "file-you-wanna-compress" "output-file")
+
 
 ## License
 
